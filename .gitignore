@@ -1,0 +1,15 @@
+# Arquivos compilados e pastas de build do NetBeans
+/build/
+/dist/
+/nbdist/
+/target/
+
+# Arquivos de usuário do NetBeans (configurações locais suas)
+nbproject/private/
+
+# Arquivos compilados Java
+*.class
+
+# Arquivos de sistema operacional
+Thumbs.db
+.DS_Store

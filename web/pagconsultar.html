@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    
+    <title>Menu Livros</title> 
+    
+    <link rel="stylesheet" href="estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+  <body>
+    <div class="container">
+      <h2>Consultar Livro</h2>
+      <form action="pagconsultar.jsp" method="POST">
+        <label for="codigoLivro">Código:</label>
+        <input type="text" id="codigoLivro" name="codigoLivro" required>
+        
+        <button type="submit" class="btn btn-consultar">
+          <i class="fas fa-search"></i>
+          Consultar
+        </button>
+      </form>
+      <a href="index.html" class="back-link">Voltar ao Menu</a>
+    </div>
+</body>
+</html>

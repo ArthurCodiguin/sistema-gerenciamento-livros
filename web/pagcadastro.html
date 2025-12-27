@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    
+    <title>Menu Livros</title> 
+    
+    <link rel="stylesheet" href="estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+  <body>
+    <div class="container">
+      <h2>Cadastrar Novo Livro</h2>
+      <form action="pagcadastrar.jsp" method="POST">
+        
+        <label for="codigoLivro">Código:</label>
+        <input type="text" id="codigoLivro" name="codigoLivro" required>
+        
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required>
+        
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" name="autor" required>
+        
+        <label for="editora">Editora:</label>
+        <input type="text" id="editora" name="editora" required>
+        
+        <label for="ano">Ano:</label>
+        <input type="text" id="ano" name="ano" required>
+        
+        <label for="localizacao">Localização:</label>
+        <input type="text" id="localizacao" name="localizacao" required>
+        
+        <button type="submit" class="btn btn-cadastrar">
+          <i class="fas fa-check-circle"></i>
+          Cadastrar
+        </button>
+        
+      </form>
+      <a href="index.html" class="back-link">Voltar ao Menu</a>
+    </div>
+</body>
+</html>
