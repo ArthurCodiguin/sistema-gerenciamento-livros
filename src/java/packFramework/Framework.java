@@ -12,7 +12,7 @@ public class Framework {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             con = DriverManager.getConnection(
                 "jdbc:sqlserver://localhost:1433;databaseName=DBLivros;encrypt=false;",
-                "sa", "123456789"
+                "SEU_USUARIO", "SUA_SENHA"
             );
         } catch (Exception e){
             System.err.println("Erro de conexão: " + e.getMessage());
