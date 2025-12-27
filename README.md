@@ -25,7 +25,7 @@ O principal diferencial deste projeto é a **ausência de frameworks ORM (como H
 
 ## Screenshots
 
-*(Adicione aqui os prints das suas telas. Sugestão: Tire print da tela de cadastro e da tela de consulta e cole aqui)*
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1f974cfd-ce33-48b5-83a1-bb5153c75733" alt="Tela de Cadastro" width="45%">
